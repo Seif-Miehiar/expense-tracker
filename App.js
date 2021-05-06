@@ -1,20 +1,42 @@
 import { StatusBar } from "expo-status-bar";
-import React from "react";
+import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import AppHeader from "./components/header";
 import Balance from "./components/balance";
 import AppExpense from "./components/addExpense";
+import Expenses from "./components/expenses";
+import {
+	// SafeAreaView,
+	SafeAreaProvider,
+	// SafeAreaInsetsContext,
+	// useSafeAreaInsets,
+	// initialWindowMetrics,
+} from "react-native-safe-area-context";
 
 const App = () => {
+	const [transactionData, setTransactionData] = useState([]);
 	var balance = 100;
+
+	const transactionCallback = (transactionChildData) => {
+		setTransactionData((transactionData) => [
+			transactionChildData,
+			...transactionData,
+		]);
+	};
 	return (
-		<View style={styles.container}>
-			<AppHeader />
-			<Balance balance={balance} />
-			<AppExpense />
-			<Text style={styles.textStyle}>Hello World App</Text>
-			<StatusBar style="auto" />
-		</View>
+		<SafeAreaProvider>
+			<View style={styles.container}>
+				<AppHeader />
+				<Balance balance={balance} />
+				<AppExpense sendDataToParent={transactionCallback} />
+				{/* <Text style={styles.textStyle}>
+					Hello World App
+					{transactionData}
+				</Text> */}
+				<Expenses data={transactionData} />
+				<StatusBar style="auto" />
+			</View>
+		</SafeAreaProvider>
 	);
 };
 
