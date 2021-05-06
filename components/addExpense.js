@@ -16,7 +16,7 @@ const AddExpense = () => {
 };
 const styles = StyleSheet.create({
 	textStyle: {
-		fontSize: 20,
+		fontSize: 21,
 	},
 });
 
