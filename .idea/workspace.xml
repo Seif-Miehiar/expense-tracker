@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa2edf7c-c32a-45ff-ad76-329490bc84cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1s8RhTV9hNPSWGDWxNBaM6yKnUD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa2edf7c-c32a-45ff-ad76-329490bc84cb" name="Default Changelist" comment="" />
+      <created>1620252350153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620252350153</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="157" width="1200" height="800" key="AVDManager" timestamp="1620252768235">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="360" y="157" width="1200" height="800" key="AVDManager/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1620252768235" />
+    <state x="691" y="285" width="528" height="550" key="AndroidProcessChooserDialog" timestamp="1620252525431">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="691" y="285" width="528" height="550" key="AndroidProcessChooserDialog/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1620252525431" />
+    <state x="690" y="240" width="530" height="640" key="FileChooserDialogImpl" timestamp="1620252455769">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="690" y="240" width="530" height="640" key="FileChooserDialogImpl/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1620252455769" />
+    <state x="324" y="104" width="1271" height="912" key="SettingsEditor" timestamp="1620252737128">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="324" y="104" width="1271" height="912" key="SettingsEditor/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1620252737128" />
+    <state x="539" y="45" key="search.everywhere.popup" timestamp="1620252359898">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="539" y="45" key="search.everywhere.popup/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1620252359898" />
+  </component>
+</project>
