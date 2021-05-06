@@ -1,27 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { Header } from "react-native-elements";
 
-const AppHeader = ({ title }) => {
+const Balance = ({ balance }) => {
 	return (
-		<Header
-			placement="left"
-			leftComponent={{ icon: "menu", color: "#fff", size: 30 }}
-			centerComponent={{
-				text: title,
-				style: { color: "#fff", fontSize: 21, fontStyle: "italic" },
-			}}
-			rightComponent={{ icon: "home", color: "#fff", size: 30 }}
-		/>
-		// <View style={styles.headerStyle}>
-		// 	<Text style={styles.textStyle}>Expense Tracker</Text>
-
-		// </View>
+		<View style={styles.headerStyle}>
+			<Text style={styles.textStyle}>Balance is {balance}</Text>
+		</View>
 	);
 };
-AppHeader.defaultProps = {
-	title: "Expense Tracker",
-};
+
 const styles = StyleSheet.create({
 	container: {
 		// flex: 1,
@@ -46,12 +33,13 @@ const styles = StyleSheet.create({
 		position: "relative",
 	},
 	headerStyle: {
-		height: 60,
+		height: "auto",
 		padding: 15,
 		textAlign: "center",
 		backgroundColor: "#00CED1",
+		borderRadius: 30,
 		alignItems: "center",
 	},
 });
 
-export default AppHeader;
+export default Balance;

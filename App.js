@@ -2,12 +2,17 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import AppHeader from "./components/header";
+import Balance from "./components/balance";
+import AppExpense from "./components/addExpense";
 
 const App = () => {
+	var balance = 100;
 	return (
 		<View style={styles.container}>
-			<AppHeader></AppHeader>
-			<Text style={styles.textStyle}>Hello World</Text>
+			<AppHeader />
+			<Balance balance={balance} />
+			<AppExpense />
+			<Text style={styles.textStyle}>Hello World App</Text>
 			<StatusBar style="auto" />
 		</View>
 	);
