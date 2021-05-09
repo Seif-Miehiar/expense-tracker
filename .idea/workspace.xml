@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa2edf7c-c32a-45ff-ad76-329490bc84cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/addExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/addExpense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +43,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="157" width="1200" height="800" key="AVDManager" timestamp="1620324769224">
+    <state x="360" y="157" width="1200" height="800" key="AVDManager" timestamp="1620562514734">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="360" y="157" width="1200" height="800" key="AVDManager/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1620324769224" />
+    <state x="360" y="157" width="1200" height="800" key="AVDManager/0.34.1920.1046/1920.0.1920.1080@0.34.1920.1046" timestamp="1620562514734" />
     <state x="691" y="285" width="528" height="550" key="AndroidProcessChooserDialog" timestamp="1620252525431">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
